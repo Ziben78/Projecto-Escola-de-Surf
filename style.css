@@ -45,7 +45,7 @@ header {
     justify-content: center; /* Centralizar imagens horizontalmente */
     width: 150px; /* (800px de largura * 3 imagens) */
     height: 150px; /* Altura das imagens */
-    overflow: hidden; /* Para esconder imagens que estão além do contêiner */
+    overflow: hidden; /* Para esconder imagens que estão além do container */
 
 }
 
