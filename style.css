@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* style.css */
 
 body {
@@ -142,3 +143,149 @@ footer {
     text-align: center;
     margin-top: 10px;
 }
+=======
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: salmon;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.instructors-container {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.instructor {
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.instructor img {
+    max-width: 100%;
+}
+
+
+.carousel-container {
+    display: flex; /* Alinhar imagens horizontalmente */
+    justify-content: center; /* Centralizar imagens horizontalmente */
+    width: 150px; /* (800px de largura * 3 imagens) */
+    height: 150px; /* Altura das imagens */
+    overflow: hidden; /* Para esconder imagens que estão além do container */
+
+}
+
+.carousel img {
+    max-width: 100%; /* Defina a largura máxima que você deseja para as imagens */
+    height: auto; /* Isso garantirá a proporção correta da imagem */
+}
+.carousel {
+    position: relative; /* Isso permite controlar a posição dos elementos internos */
+    z-index: 2; /* Defina um valor maior para o carrossel para que ele fique acima do formulário */
+}
+  
+.info-request form {
+    width: 50%;
+    text-align: left;
+    background-color: lightblue;
+    padding: 10px;
+    position: relative; /* Adicione esta propriedade */
+    z-index: 1; /* Defina um valor menor para o formulário para que ele fique abaixo do carrossel */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0); /* Torna o fundo transparente */
+    color: black;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.contact-info,
+.info-request {
+    margin-top: 20px;
+
+}
+
+.contact-info h3,
+.info-request h3 {
+    font-size: 20px;
+
+}
+
+.contact-info p {
+    margin: 5px 0;
+
+}
+
+.info-request form {
+    width: 50%;
+    text-align: left;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+/* Aumente o espaçamento entre os rótulos e os campos */
+.info-request label {
+    margin-bottom: 5px; /* Ajuste o valor conforme necessário */
+    font-size: 16px;
+}
+
+/* Reduza o tamanho dos campos de entrada */
+.info-request input[type="text"],
+.info-request input[type="email"],
+.info-request textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 60%; /* Reduza a largura conforme necessário */
+    padding: 8px; /* Reduza o padding conforme necessário */
+    font-size: 12px; /* Reduza o tamanho da fonte conforme necessário */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.info-request textarea {
+    resize: vertical;
+}
+
+.info-request input[type="submit"] {
+    background-color: whitesmoke;
+    color: red;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info-request input[type="submit"]:hover {
+    background-color: lightblue;
+}
+
+#mensagem-enviada {
+    display: none;
+    background-color: lightgreen;
+    color: green;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+>>>>>>> 667b8a858bb06b9848fc700fd2a8b1d5d023b3b2
