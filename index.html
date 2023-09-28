@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Escola de Surf</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images\logo.jpg" alt="Logo Surf Clube Atlântico">
+        <h1>Escola de Surf</h1>
+    </header>
+
+    <div class="container">
+        <h2>Nossos Instrutores</h2>
+        <div class="instructors-container">
+            <div class="instructor">
+                <img src="images\bruno_pinto.jpeg" alt="Bruno Pinto">
+                <h3>Bruno Pinto</h3>
+                <p>LongBoard</p>
+            </div>
+            <div class="instructor">
+                <img src="images\gui_dias.jpeg" alt="Gui Dias">
+                <h3>Gui Dias</h3>
+                <p>ShoartBoard</p>
+            </div>
+            <div class="instructor">
+                <img src="images\nuno_balao.jpeg" alt="Nuno Balão">
+                <h3>Nuno Balão</h3>
+                <p>BodyBoard</p>
+            </div>
+        </div>
+        <h2>As nossas Aulas</h2>
+        <p>Oferecemos aulas para surfistas de todos os níveis, desde iniciantes até avançados. Venha juntar-se a nós para uma experiência incrível!</p>
+
+        <!-- Footer-->
+        <div class="contact-info">
+            <h3>Entre em contacto 🏄🏼</h3>
+            <p>Morada 📍: Praia da Bolina, 2825-308 Costa da Caparica</p>
+            <p>Email 📧: surfclubeatlantico@gmail.com</p>
+            <p>Telemóvel 📱 : +351 933758638</p>
+            <p>Instagram : https://www.instagram.com/sc.atlantico/</p>
+
+        </div>
+        <!-- info-request-->
+        <div class="info-request">
+            <h3>Pedir informações</h3>
+            <form action="#">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="Telemóvel">Telemóvel:</label>
+                <input type="text" id="Telemóvel" name="Telemóvel" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea type="mensagem" id="mensagem" rows="4" required></textarea>
+
+                <input type="submit" value="Enviar">
+                <div id="mensagem-enviada"></div>
+            </form>
+        </div>
+
+        <footer>
+
+            <p>powered by @ziben, 2023</p>
+
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

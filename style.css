@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* style.css */
 
 body {
@@ -7,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 
 header {
     background-color: lightblue;
@@ -184,25 +184,6 @@ header {
 .instructor img {
     max-width: 100%;
 }
-
-
-.carousel-container {
-    display: flex; /* Alinhar imagens horizontalmente */
-    justify-content: center; /* Centralizar imagens horizontalmente */
-    width: 150px; /* (800px de largura * 3 imagens) */
-    height: 150px; /* Altura das imagens */
-    overflow: hidden; /* Para esconder imagens que estão além do container */
-
-}
-
-.carousel img {
-    max-width: 100%; /* Defina a largura máxima que você deseja para as imagens */
-    height: auto; /* Isso garantirá a proporção correta da imagem */
-}
-.carousel {
-    position: relative; /* Isso permite controlar a posição dos elementos internos */
-    z-index: 2; /* Defina um valor maior para o carrossel para que ele fique acima do formulário */
-}
   
 .info-request form {
     width: 50%;
@@ -288,4 +269,4 @@ footer {
     text-align: center;
     margin-top: 10px;
 }
->>>>>>> 667b8a858bb06b9848fc700fd2a8b1d5d023b3b2
+
